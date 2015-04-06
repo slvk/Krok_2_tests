@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+<!--
+    <TextView android:text="Some question"
+        android:layout_width="wrap_content"
+        android:id="@+id/question"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/quest_text_size"
+        android:paddingBottom="@dimen/quest_quest_padding"
+        android:scrollbars = "vertical"
+        android:maxLines = "@integer/quest_count_lines"
+     />
+-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewAnswers"
+
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/quest_answ_text_size"
+        android:layout_above="@+id/nextbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+       />
+<!-- android:layout_below="@+id/question" -->
+    <Button
+        android:layout_width="@dimen/quest_button_width"
+        android:layout_height="@dimen/quest_button_height"
+        android:text="@string/next_quest_label"
+        android:id="@+id/nextbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+     />
+
+    <ProgressBar
+
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/quest_button_height"
+        android:id="@+id/AnswerProgress"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/nextbutton"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_bar_custom"
+    />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Тести Крок</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="title_activity_question">Тести  &#34;Крок&#34;</string>
+    <string name="title_activity_statistics">StatisticsActivity</string>
+    <string name="minute_label">&#160;хв</string>
+    <string name= "statistics_label">Результат </string>
+    <string name="next_quest_label">Далі</string>
+    <string name="about_title">Про програму</string>
+    <string name="version_word">Версія:&#160;</string>
+    <string name="version_name">0.8.1 </string>
+    <string name="author">Автор: Янощук В\'ячеслав </string>
+    <string name="email">Email: krok@ukr.net</string>
+    <string name="button_title">Закрити</string>
+    <string name="action_about">Про програму</string>
+    <string name="action_exit">Вихід</string>
+</resources>
